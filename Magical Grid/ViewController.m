@@ -17,13 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    for (int i =0; i < 6; i ++){
+    
+    CGFloat numViewPerRow = 15;
+    
+    CGFloat width = self.view.frame.size.width / numViewPerRow;
+    
+    for(CGFloat w = 0; w < 30; w ++) {
+    
+    for (CGFloat i =0; i < numViewPerRow; i ++){
         
     UIView *redview = [[UIView alloc]init];
     redview.backgroundColor = [self randomColor];
-    redview.frame = CGRectMake((i * 100), 0, 100, 100);
+    redview.frame = CGRectMake((i * width), (w * width), width, width);
+    redview.layer.borderWidth = 0.5;
+    redview.layer.borderColor = [[UIColor blackColor] CGColor];
     [self.view addSubview:redview];
-    
+    }
     }
 }
 
