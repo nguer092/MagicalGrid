@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013806EC1F6F53A8001CCFBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013806EB1F6F53A8001CCFBE /* main.m */; };
+		013806EF1F6F53A8001CCFBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013806EE1F6F53A8001CCFBE /* AppDelegate.m */; };
+		013806F21F6F53A8001CCFBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013806F11F6F53A8001CCFBE /* ViewController.m */; };
+		013806F51F6F53A8001CCFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013806F31F6F53A8001CCFBE /* Main.storyboard */; };
+		013806F71F6F53A8001CCFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013806F61F6F53A8001CCFBE /* Assets.xcassets */; };
+		013806FA1F6F53A8001CCFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013806F81F6F53A8001CCFBE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		013806E71F6F53A8001CCFBE /* Magical Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magical Grid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		013806EB1F6F53A8001CCFBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		013806ED1F6F53A8001CCFBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		013806EE1F6F53A8001CCFBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		013806F01F6F53A8001CCFBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		013806F11F6F53A8001CCFBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		013806F41F6F53A8001CCFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		013806F61F6F53A8001CCFBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		013806F91F6F53A8001CCFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		013806FB1F6F53A8001CCFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013806E41F6F53A8001CCFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013806DE1F6F53A8001CCFBE = {
+			isa = PBXGroup;
+			children = (
+				013806E91F6F53A8001CCFBE /* Magical Grid */,
+				013806E81F6F53A8001CCFBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		013806E81F6F53A8001CCFBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013806E71F6F53A8001CCFBE /* Magical Grid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013806E91F6F53A8001CCFBE /* Magical Grid */ = {
+			isa = PBXGroup;
+			children = (
+				013806ED1F6F53A8001CCFBE /* AppDelegate.h */,
+				013806EE1F6F53A8001CCFBE /* AppDelegate.m */,
+				013806F01F6F53A8001CCFBE /* ViewController.h */,
+				013806F11F6F53A8001CCFBE /* ViewController.m */,
+				013806F31F6F53A8001CCFBE /* Main.storyboard */,
+				013806EA1F6F53A8001CCFBE /* Supporting Files */,
+			);
+			path = "Magical Grid";
+			sourceTree = "<group>";
+		};
+		013806EA1F6F53A8001CCFBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				013806F61F6F53A8001CCFBE /* Assets.xcassets */,
+				013806F81F6F53A8001CCFBE /* LaunchScreen.storyboard */,
+				013806FB1F6F53A8001CCFBE /* Info.plist */,
+				013806EB1F6F53A8001CCFBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013806E61F6F53A8001CCFBE /* Magical Grid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013806FE1F6F53A8001CCFBE /* Build configuration list for PBXNativeTarget "Magical Grid" */;
+			buildPhases = (
+				013806E31F6F53A8001CCFBE /* Sources */,
+				013806E41F6F53A8001CCFBE /* Frameworks */,
+				013806E51F6F53A8001CCFBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magical Grid";
+			productName = "Magical Grid";
+			productReference = 013806E71F6F53A8001CCFBE /* Magical Grid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013806DF1F6F53A8001CCFBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nicolas Guerrero";
+				TargetAttributes = {
+					013806E61F6F53A8001CCFBE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 013806E21F6F53A8001CCFBE /* Build configuration list for PBXProject "Magical Grid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 013806DE1F6F53A8001CCFBE;
+			productRefGroup = 013806E81F6F53A8001CCFBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013806E61F6F53A8001CCFBE /* Magical Grid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013806E51F6F53A8001CCFBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013806FA1F6F53A8001CCFBE /* LaunchScreen.storyboard in Resources */,
+				013806F71F6F53A8001CCFBE /* Assets.xcassets in Resources */,
+				013806F51F6F53A8001CCFBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013806E31F6F53A8001CCFBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013806F21F6F53A8001CCFBE /* ViewController.m in Sources */,
+				013806EF1F6F53A8001CCFBE /* AppDelegate.m in Sources */,
+				013806EC1F6F53A8001CCFBE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		013806F31F6F53A8001CCFBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013806F41F6F53A8001CCFBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		013806F81F6F53A8001CCFBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013806F91F6F53A8001CCFBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		013806FC1F6F53A8001CCFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		013806FD1F6F53A8001CCFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		013806FF1F6F53A8001CCFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Magical Grid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickguerrero.Magical-Grid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		013807001F6F53A8001CCFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Magical Grid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickguerrero.Magical-Grid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013806E21F6F53A8001CCFBE /* Build configuration list for PBXProject "Magical Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013806FC1F6F53A8001CCFBE /* Debug */,
+				013806FD1F6F53A8001CCFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013806FE1F6F53A8001CCFBE /* Build configuration list for PBXNativeTarget "Magical Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013806FF1F6F53A8001CCFBE /* Debug */,
+				013807001F6F53A8001CCFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013806DF1F6F53A8001CCFBE /* Project object */;
+}
