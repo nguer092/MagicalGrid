@@ -17,12 +17,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    for (int i =0; i < 6; i ++){
+        
     UIView *redview = [[UIView alloc]init];
-    redview.backgroundColor = [UIColor redColor];
-    redview.frame = CGRectMake(0, 0, 100, 100);
+    redview.backgroundColor = [self randomColor];
+    redview.frame = CGRectMake((i * 100), 0, 100, 100);
     [self.view addSubview:redview];
     
-    
+    }
 }
+
+-(UIColor *)randomColor
+{
+    CGFloat red = drand48();
+    CGFloat green = drand48();
+    CGFloat blue = drand48();
+    UIColor *color = [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
+    return color;
+}
+
+
 
 @end
