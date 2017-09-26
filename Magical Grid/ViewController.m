@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong)NSArray<UIView*> *subview;
 @end
 
 @implementation ViewController
@@ -34,6 +34,15 @@
     [self.view addSubview:redview];
     }
     }
+    
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action: @selector(handlePan:)];
+    [self.view addGestureRecognizer:pan];
+}
+
+-(void)handlePan:(UIPanGestureRecognizer*)pan{
+    CGPoint location  = [pan locationInView:self.view];
+    NSLog(@"%@", NSStringFromCGPoint(location));
+
 }
 
 -(UIColor *)randomColor
